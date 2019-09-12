@@ -6,4 +6,5 @@ COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
 
+CMD ["--exit e", "--directory addons"]
 ENTRYPOINT ["/entrypoint.sh"]
