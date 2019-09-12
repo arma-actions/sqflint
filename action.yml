@@ -1,0 +1,8 @@
+name: 'sqflint'
+description: 'Parser, static analyzer and interpreter of SQF (Arma programming language)'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
