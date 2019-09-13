@@ -1,0 +1,21 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "sqflint",
+            "pattern": [
+                {
+                    "regexp": "^([^\\s].*)$",
+                    "file": 1
+                },
+                {
+                    "regexp": "^\\s+\\[(\\d+),(\\d+)\\]:(error|warning):(.*)$",
+                    "line": 1,
+                    "column": 2,
+                    "severity": 3,
+                    "message": 4,
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}
