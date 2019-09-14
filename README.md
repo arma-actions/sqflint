@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: arma-actions/sqflint@1.0
+      - uses: arma-actions/sqflint@v1.0
         name: Validate with SQFLint
 ```
 
@@ -40,7 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: arma-actions/sqflint@1.0
+      - uses: arma-actions/sqflint@v1.0
         name: Validate with SQFLint with custom arguments
         with:
           args: --exit w --directory Missionframework
