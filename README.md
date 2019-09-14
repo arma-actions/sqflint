@@ -1,6 +1,6 @@
 # GitHub Action for SQFLint
 
-This action runs [sqflint](https://github.com/LordGolias/sqflint) on your code.
+This action runs [sqflint](https://github.com/LordGolias/sqf) on your code.
 
 By default the program is run with following arguments:
   - `--exit e` - return 1 and exit on error
