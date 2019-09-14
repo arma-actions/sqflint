@@ -1,6 +1,10 @@
 name: 'sqflint'
 description: 'Parser, static analyzer and interpreter of SQF (Arma programming language)'
 
+branding:
+  icon: check-square
+  color: orange
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
