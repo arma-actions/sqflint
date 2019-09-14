@@ -30,7 +30,7 @@ jobs:
 
 # Customizing arguments
 
-If you want to customize the arguments given to `sqflint` binary you can do this by specifying the arguments in `jobs.<job>.steps.with.args`. *This will remove default arguments from this Action.
+If you want to customize the arguments given to `sqflint` binary you can do this by specifying the arguments in `jobs.<job>.steps.with.args`. *This will remove default arguments from sqflint.*
 
 ```yml
 # main.yml
